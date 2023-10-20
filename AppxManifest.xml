@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop7="http://schemas.microsoft.com/appx/manifest/desktop/windows10/7" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap uap2 uap3 uap10 desktop desktop7 rescap">
+  <!--Package created by MSIX Packaging Tool version: 1.2023.807.0-->
+  <Identity Name="thorium" Publisher="CN=Test Certificate" Version="117.0.5938.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>Thorium 117 AVX2</DisplayName>
+    <PublisherDisplayName>Sk. Mashrur Sourov</PublisherDisplayName>
+    <Description>Version is 117.0.5938.157. This binary was taken from thorium.rocks. The GitHub url is https://github.com/Alex313031/Thorium-Win-AVX2/releases.</Description>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <uap10:PackageIntegrity>
+      <uap10:Content Enforcement="on" />
+    </uap10:PackageIntegrity>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22000.1" />
+  </Dependencies>
+  <Applications>
+    <Application Id="THORIUM" Executable="thorium.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements BackgroundColor="transparent" DisplayName="Thorium" Square150x150Logo="Assets\THORIUM-Square150x150Logo.png" Square44x44Logo="Assets\THORIUM-Square44x44Logo.png" Description="Thorium Browser">
+        <uap:DefaultTile Wide310x150Logo="Assets\THORIUM-Wide310x150Logo.png" Square310x310Logo="Assets\THORIUM-Square310x310Logo.png" Square71x71Logo="Assets\THORIUM-Square71x71Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen BackgroundColor="#2C54A9" Image="Assets\THORIUM-Square310x310Logo.scale-100.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <desktop7:Extension Category="windows.shortcut">
+          <desktop7:Shortcut File="[{Programs}]\Thorium.lnk" Icon="[{Package}]\thorium.exe" />
+        </desktop7:Extension>
+        <uap3:Extension Category="windows.appExecutionAlias" EntryPoint="Windows.FullTrustApplication" Executable="thorium.exe">
+          <uap3:AppExecutionAlias>
+            <desktop:ExecutionAlias Alias="thorium.exe" />
+          </uap3:AppExecutionAlias>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="avif">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.avif</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="htm">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.htm</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="html">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.html</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="pdf">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.pdf</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="shtml">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.shtml</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="xht">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.xht</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="xhtml">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.xhtml</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="svg">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.svg</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="webp">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.webp</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="jxl">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.jxl</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="open" Parameters="&quot;%1&quot;">open</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap3:FileTypeAssociation>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.protocol">
+          <uap3:Protocol Name="http">
+            <uap:DisplayName>http</uap:DisplayName>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+          </uap3:Protocol>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.protocol">
+          <uap3:Protocol Name="https">
+            <uap:DisplayName>https</uap:DisplayName>
+            <uap:Logo>Assets\THORIUM.png</uap:Logo>
+          </uap3:Protocol>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  
+<Capabilities><rescap:Capability Name="runFullTrust" /></Capabilities></Package>
