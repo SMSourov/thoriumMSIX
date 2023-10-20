@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE]
+
+[HKEY_LOCAL_MACHINE\Software]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\cjpalhdlnbpafiamejdnhcphjbkeiagm]
+"update_url"="https://clients2.google.com/service/update2/crx"
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\ipdjnhgkpapgippgcgkfcbpdpcgifncb]
+"update_url"="https://clients2.google.com/service/update2/crx"
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\mpkodccbngfoacfalldjimigbofkhgjn]
+"update_url"="https://clients2.google.com/service/update2/crx"
+
+[HKEY_USERS]
