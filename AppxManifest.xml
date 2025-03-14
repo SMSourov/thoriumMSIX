@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop7="http://schemas.microsoft.com/appx/manifest/desktop/windows10/7" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap uap2 uap3 uap10 desktop desktop7 rescap">
   <!--Package created by MSIX Packaging Tool version: 1.2023.807.0-->
-  <Identity Name="thorium" Publisher="CN=Test Certificate" Version="117.0.5938.0" ProcessorArchitecture="x64" />
+  <Identity Name="thorium" Publisher="CN=Test Certificate" Version="130.0.6723.0" ProcessorArchitecture="x64" />
   <Properties>
-    <DisplayName>Thorium 117 AVX2</DisplayName>
+    <DisplayName>Thorium 130 AVX2</DisplayName>
     <PublisherDisplayName>Sk. Mashrur Sourov</PublisherDisplayName>
-    <Description>Version is 117.0.5938.157. This binary was taken from thorium.rocks. The GitHub url is https://github.com/Alex313031/Thorium-Win-AVX2/releases.</Description>
+    <Description>Version is M130.0.6723.174. This binary was taken from thorium.rocks. The GitHub url is https://github.com/Alex313031/Thorium-Win/releases.</Description>
     <Logo>Assets\StoreLogo.png</Logo>
     <uap10:PackageIntegrity>
       <uap10:Content Enforcement="on" />
@@ -18,7 +18,7 @@
     <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22000.1" />
   </Dependencies>
   <Applications>
-    <Application Id="THORIUM" Executable="thorium.exe" EntryPoint="Windows.FullTrustApplication">
+    <Application Id="THORIUM" Executable="thorium\thorium.exe" EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements BackgroundColor="transparent" DisplayName="Thorium" Square150x150Logo="Assets\THORIUM-Square150x150Logo.png" Square44x44Logo="Assets\THORIUM-Square44x44Logo.png" Description="Thorium Browser">
         <uap:DefaultTile Wide310x150Logo="Assets\THORIUM-Wide310x150Logo.png" Square310x310Logo="Assets\THORIUM-Square310x310Logo.png" Square71x71Logo="Assets\THORIUM-Square71x71Logo.png">
           <uap:ShowNameOnTiles>
@@ -163,5 +163,7 @@
       </Extensions>
     </Application>
   </Applications>
-  
-<Capabilities><rescap:Capability Name="runFullTrust" /></Capabilities></Package>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+</Package>
