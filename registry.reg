@@ -15,10 +15,26 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\cjpalhdlnbpafiamejdnhcphjbkeiagm]
 "update_url"="https://clients2.google.com/service/update2/crx"
 
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\cjpalhdlnbpafiamejdnhcphjbkeiagm\Ublock Origin]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\ddkjiahejlhfcafbddmgiahcphecmpfh]
+"update_url"="https://clients2.google.com/service/update2/crx"
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\ddkjiahejlhfcafbddmgiahcphecmpfh\Ublock Origin Lite]
+
 [HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\ipdjnhgkpapgippgcgkfcbpdpcgifncb]
 "update_url"="https://clients2.google.com/service/update2/crx"
 
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\ipdjnhgkpapgippgcgkfcbpdpcgifncb\Emoji Keyboard by JoyPixels]
+
 [HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\mpkodccbngfoacfalldjimigbofkhgjn]
 "update_url"="https://clients2.google.com/service/update2/crx"
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\mpkodccbngfoacfalldjimigbofkhgjn\Aria2 Explorer]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\pkehgijcmpdhfbdbbnkijodmdjhbjlgp]
+"update_url"="https://clients2.google.com/service/update2/crx"
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Google\Chrome\Extensions\pkehgijcmpdhfbdbbnkijodmdjhbjlgp\Privacy Badger]
 
 [HKEY_USERS]
