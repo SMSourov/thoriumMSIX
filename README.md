@@ -5,11 +5,15 @@ A manifest template for the thorium browser to convert it to an MSIX package.
 # Extensions
 The package auto installs the following extensions
 
-- Emoji Keyboard by JoyPixels
-
 - Aria2 Explorer
 
+- Emoji Keyboard by JoyPixels
+
+- Privacy Badger
+
 - Ublock Origin
+
+- Ublock Origin Lite
 
 
 # MSIX Builds
