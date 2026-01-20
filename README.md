@@ -1,6 +1,8 @@
 # thoriumMSIX
 A manifest template for the thorium browser to convert it to an MSIX package.
 
+# Note
+This is the AVX2 variant.
 
 # Extensions
 The package auto installs the following extensions
