@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop7="http://schemas.microsoft.com/appx/manifest/desktop/windows10/7" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap uap2 uap3 uap10 desktop desktop7 rescap">
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap uap2 uap3 uap10 desktop rescap">
   <!--Package created by MSIX Packaging Tool version: 1.2023.807.0-->
-  <Identity Name="thorium" Publisher="CN=Test Certificate" Version="130.0.6723.0" ProcessorArchitecture="x64" />
+  <Identity Name="thorium" Publisher="CN=Test Certificate" Version="138.0.7204.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>Thorium 130 AVX2</DisplayName>
     <PublisherDisplayName>Sk. Mashrur Sourov</PublisherDisplayName>
-    <Description>Version is M130.0.6723.174. This binary was taken from thorium.rocks. The GitHub url is https://github.com/Alex313031/Thorium-Win/releases.</Description>
+    <Description>Version is M138.0.7204.303. This binary was taken from thorium.rocks. The GitHub url is https://github.com/Alex313031/Thorium-Win/releases.</Description>
     <Logo>Assets\StoreLogo.png</Logo>
     <uap10:PackageIntegrity>
       <uap10:Content Enforcement="on" />
@@ -30,9 +30,6 @@
         <uap:SplashScreen BackgroundColor="#2C54A9" Image="Assets\THORIUM-Square310x310Logo.scale-100.png" />
       </uap:VisualElements>
       <Extensions>
-        <desktop7:Extension Category="windows.shortcut">
-          <desktop7:Shortcut File="[{Programs}]\Thorium.lnk" Icon="[{Package}]\thorium.exe" />
-        </desktop7:Extension>
         <uap3:Extension Category="windows.appExecutionAlias" EntryPoint="Windows.FullTrustApplication" Executable="thorium.exe">
           <uap3:AppExecutionAlias>
             <desktop:ExecutionAlias Alias="thorium.exe" />
@@ -163,7 +160,5 @@
       </Extensions>
     </Application>
   </Applications>
-  <Capabilities>
-    <rescap:Capability Name="runFullTrust" />
-  </Capabilities>
-</Package>
+  
+<Capabilities><rescap:Capability Name="runFullTrust" /></Capabilities></Package>
