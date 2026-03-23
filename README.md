@@ -7,16 +7,20 @@ This is the AVX2 variant.
 # Extensions
 The package auto installs the following extensions
 
+
 - Aria2 Explorer
 
 - Emoji Keyboard by JoyPixels
 
 - Privacy Badger
 
+- rektCaptcha: reCaptcha Solver
+
 - Ublock Origin
 
 - Ublock Origin Lite
 
+> At the time of writing this, Google allows to install Ublock Origin. Not sure how long Google will allow this.
 
 # MSIX Builds
 The released versions are signed with a dummy certificate.
