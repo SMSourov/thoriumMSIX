@@ -56,6 +56,8 @@ The package will be registered with the following protocols
 
 - https
 
+# Test Certificate
+The package is signed with a dummy certificate. This certificate requires no password. Install the certificate in the Local Machine and place the certificate in the Trusted People folder. Without the package being signed and without the certificate being installed properly, the package will not be installed.
 
 # More info
 - This package can be used to make the default browser.
